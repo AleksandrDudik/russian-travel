@@ -1,0 +1,22 @@
+.place__paragraph-zone{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.611;
+  font-weight: 400;
+  font-style: normal;
+  list-style: none;
+}
+  
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .place__paragraph-zone{
+      font-size: 16px;
+      line-height: 1.625;
+    }
+}
+  
+@media screen and (max-width: 767px){
+    .place__paragraph-zone{
+      padding: 0 16px;
+    }
+}
